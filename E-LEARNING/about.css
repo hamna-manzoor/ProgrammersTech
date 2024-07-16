@@ -1,0 +1,35 @@
+/* About Page */
+.about {
+    padding: 20px;
+    padding-top: 130px;
+}
+
+.aboutpic img {
+    width: 100%;
+    height: 400px;
+}
+
+.provide,
+.mission {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    background: radial-gradient(circle, #f0f0f0, #d0d0d0);
+}
+
+.ttext p,
+.mistxt p {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    padding: 0 10%;
+    color: #131842;
+}
+
+.learning img,
+.mispic img {
+    height: 300px;
+    width: 1000px;
+}
