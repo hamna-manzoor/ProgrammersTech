@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 40px;
     width: 100%;
     background-color: #131842;
     position: fixed;
@@ -83,21 +83,6 @@ span {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.search-container {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.search-bar {
-    width: 50%;
-    max-width: 400px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
 .client {
     max-width: 800px;
     margin: 0 auto;
@@ -107,7 +92,7 @@ span {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.client > p {
+.client>p {
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 20px;
@@ -122,7 +107,8 @@ span {
     align-items: center;
 }
 
-.client1, .client2 {
+.client1,
+.client2 {
     display: flex;
     align-items: center;
 }
@@ -133,7 +119,6 @@ span {
 
 .client2 {
     justify-content: space-between;
-    /* flex-direction: row-reverse; */
 }
 
 .cl1 {
@@ -151,7 +136,8 @@ span {
     font-weight: 700;
     color: #987D9A;
 }
-.client2 p{
+
+.client2 p {
     width: 35%;
     font-weight: 700;
     color: #987D9A;
@@ -212,27 +198,31 @@ span {
     width: 30px;
     margin-left: 10px;
 }
-footer{
+
+footer {
     background: #131842;
     color: #987D9A;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
-.footer{
+
+.footer {
     padding: 10px;
     position: relative;
     top: 20px;
 }
+
 .iconss {
-    display: flex;justify-content: flex-end;
-position: relative;
-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 20px;
 }
 
 .iconss a {
     margin: 0 10px;
 }
+
 /* Responsive Styling */
 @media (max-width: 768px) {
     .navlists {
@@ -332,17 +322,17 @@ bottom: 20px;
         justify-content: center;
         align-items: center;
     }
-footer{
-    position: relative;
-    top: 350px;
-}
+
+    footer {
+        position: relative;
+        top: 350px;
+    }
 }
 
 @media (max-width: 768px) {
     .login {
         flex-direction: column;
-        /* margin-top: 550px; */
         justify-content: center;
         margin-top: 100px;
     }
-} 
+}

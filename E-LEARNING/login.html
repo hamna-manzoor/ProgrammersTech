@@ -21,14 +21,6 @@
 <body>
     <header>
         <div class="name"><span>L</span>earn<span>S</span>phere</div>
-        <div class="container">
-            <div class="search-container">
-                <form id="search-form">
-                    <input type="text" id="search-input" class="form-control search-bar"
-                        placeholder="Search for courses, topics, etc.">
-                </form>
-            </div>
-        </div>
         <div class="hamburger" id="hamburger">
             <div></div>
             <div></div>
@@ -45,12 +37,14 @@
     </header>
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
         <div class="login">
             <img src="log.png" alt="">
@@ -84,20 +78,19 @@
                         src="instagram (1).png" alt="Insta"></a>
             </div>
         </footer>
-    <script>
-        document.getElementById('hamburger').addEventListener('click', function () {
-            document.getElementById('navlists').classList.toggle('active');
-        });
+        <script>
+            document.getElementById('hamburger').addEventListener('click', function () {
+                document.getElementById('navlists').classList.toggle('active');
+            });
 
-        document.addEventListener('DOMContentLoaded', function() {
-    const redirectButton = document.getElementById('redirectButton');
+            document.addEventListener('DOMContentLoaded', function () {
+                const redirectButton = document.getElementById('redirectButton');
 
-    redirectButton.addEventListener('click', function() {
-        // Replace 'anotherpage.html' with the URL of the page you want to redirect to
-        window.location.href = 'index.html';
-    });
-});
-    </script>
-</body>
+                redirectButton.addEventListener('click', function () {
+                    window.location.href = 'index.html';
+                });
+            });
+        </script>
+    </body>
 
-</html>
+    </html>
