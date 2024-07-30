@@ -87,9 +87,18 @@ span {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: transparent;
+}
+
+.part{
+    background-image: url('lllllllast.webp');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
 }
 
 .client>p {
@@ -122,12 +131,17 @@ span {
 }
 
 .cl1 {
-    border: 1px solid #131842;
+    border: 3px solid #131842;
     padding: 10px;
     border-radius: 5px;
     margin: 0 10px;
     width: 60%;
     color: #987D9A;
+    font-weight: 700;
+}
+
+.cl1:hover {
+    transform: translateY(-10px);
 }
 
 .client1 p {
@@ -147,7 +161,6 @@ span {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
